@@ -1,0 +1,38 @@
+{
+  "author": "zCloak",
+  "bugs": "https://github.com/zCloak-Network/common-ts/issues",
+  "contributors": [],
+  "description": "zCloak react-wallet",
+  "homepage": "https://github.com/zCloak-Network/common-ts#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@zcloak/react-wallet",
+  "publishConfig": {
+    "directory": "build"
+  },
+  "repository": {
+    "directory": "packages/react-wallet",
+    "type": "git",
+    "url": "https://github.com/zCloak-Network/common-ts.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.8.1",
+  "main": "index.js",
+  "dependencies": {
+    "@ethersproject/address": "^5.6.1",
+    "@ethersproject/providers": "^5.6.8",
+    "@metamask/detect-provider": "^1.2.0",
+    "@walletconnect/ethereum-provider": "^1.7.8",
+    "eventemitter3": "^5.0.0"
+  },
+  "devDependencies": {
+    "@walletconnect/types": "^1.7.8",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}

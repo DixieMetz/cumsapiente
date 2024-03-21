@@ -1,0 +1,30 @@
+{
+  "author": "zCloak",
+  "bugs": "https://github.com/zCloak-Network/common-ts/issues",
+  "contributors": [],
+  "description": "zCloak web3-query",
+  "homepage": "https://github.com/zCloak-Network/common-ts#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@zcloak/web3-query",
+  "publishConfig": {
+    "directory": "build"
+  },
+  "repository": {
+    "directory": "packages/web3-query",
+    "type": "git",
+    "url": "https://github.com/zCloak-Network/common-ts.git"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "version": "0.8.1",
+  "main": "index.js",
+  "dependencies": {
+    "@ethersproject/abi": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/keccak256": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/strings": "^5.7.0"
+  }
+}

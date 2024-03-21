@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "..",
+    "outDir": "./build",
+    "rootDir": "./src"
+  },
+  "exclude": [
+    "**/*.spec.ts",
+    "**/test/**/*"
+  ],
+  "references": [
+    { "path": "../did-keyring/tsconfig.build.json" },
+    { "path": "../ui-store/tsconfig.build.json" }
+  ]
+}
